@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb2b19cf-0aa8-4600-a99e-70bcd8e21959" name="Default Changelist" comment="- ?protetic" />
+    <list default="true" id="cb2b19cf-0aa8-4600-a99e-70bcd8e21959" name="Default Changelist" comment="- ?protetic">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YoGxD6A5j4XLdOZsZSMn2FXSkg" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
@@ -71,6 +73,7 @@
       <workItem from="1588091718244" duration="12000" />
       <workItem from="1588757957967" duration="4740000" />
       <workItem from="1588849466144" duration="12000" />
+      <workItem from="1604095426866" duration="574000" />
     </task>
     <task id="LOCAL-00001" summary="- ?protetic">
       <created>1583672655986</created>
