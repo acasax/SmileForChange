@@ -1,0 +1,42 @@
+{
+  "en":{
+    "firstName" : "First name",
+    "firstNameRequired": "Please enter a first name",
+    "firstNameMinLength": "First name  must be at least 2 characters long",
+    "lastName" : "Last name",
+    "lastNameRequired": "Please enter a last name",
+    "lastNameMinLength": "Last name  must be at least 2 characters long",
+    "email" : "Email",
+    "emailRequired": "Please enter an email",
+    "emailCheck":  "Please enter a valid email address.",
+    "phone" : "Phone",
+    "phoneRequired": "Please enter an phone",
+    "phoneRegexMsg": "Phone is not valid format",
+    "date": "Date",
+    "dateRequired": "Please choose a date",
+    "time": "Time",
+    "timeRequired": "Please choose a time",
+    "buttonConfirm": "Confirm",
+    "buttonCancel": "Cancel"
+  },
+  "rs":{
+    "firstName" : "Ime",
+    "firstNameRequired": "Unesite ime",
+    "firstNameMinLength": "Ime mora biti najmanje 2 znaka",
+    "lastName" : "Prezime",
+    "lastNameRequired": "Unesite prezime",
+    "lastNameMinLength": "Prezime mora biti najmanje 2 znaka",
+    "email" : "E adresa",
+    "emailRequired": "Unesite e adresu",
+    "emailCheck": "Unesite ispravnu e-mail adresu",
+    "phone" : "Telefon",
+    "phoneRequired": "Unesite broj telefona",
+    "phoneRegexMsg": "Broj koji ste uneli nije dobrog formata",
+    "date": "Datum",
+    "dateRequired": "Izaberite datum",
+    "time": "Vreme",
+    "timeRequired": "Izaberite vreme",
+    "buttonConfirm": "Zakaži",
+    "buttonCancel": "Poništi"
+  }
+}

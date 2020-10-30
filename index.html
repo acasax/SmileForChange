@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="images/favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta content="lep osmeh, proteticar, proteticar krusevac, stomatoloska ordinacija">
+	<meta name="author" content="resivoje.com">
+	<meta name="description" content="Osmeh za promenu">
+	<title>Osmeh za promenu</title>
+	<!-- Stylesheets -->
+	<link href="vendor/slick/slick.css" rel="stylesheet">
+	<link href="vendor/animate/animate.min.css" rel="stylesheet">
+	<link href="icons/style.css" rel="stylesheet">
+	<link href="../vendor/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/style-0.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+    <link href="color/color.css" rel="stylesheet">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Google map -->
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
+		<link rel="stylesheet" href="admin/dist/css/loginArea.css">
+	<link rel="stylesheet" href="vendor/swall/sweetalert.css">
+</head>
+<body class="shop-page">
+<!--header-->
+<header class="header">
+		<div class="header-quickLinks js-header-quickLinks d-lg-none">
+			<div class="quickLinks-top js-quickLinks-top"></div>
+			<div class="js-quickLinks-wrap-m">
+			</div>
+		</div>
+		<div class="header-topline d-none d-lg-flex">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-auto d-flex align-items-center">
+						<div class="header-info"><i class="icon-black-envelope"></i><a href="mailto:info@osmehzapromenu.com">info@osmehzapromenu.com</a></div>
+					</div>
+					<div class="col-auto ml-auto d-flex align-items-center">
+						<span class="header-social">
+							<a href="https://www.instagram.com/kreativ.dental.lab/" style="padding: 23px 15px; transform: scale(1.5);"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+							<a href="https://www.instagram.com/kreativ.dental.lab/" style="padding: 23px 15px; transform: scale(1.5);"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+							<a href="https://www.instagram.com/kreativ.dental.lab/" style="padding: 23px 15px; transform: scale(1.5);"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+						 	<a href="en/index.html" class="hovicon" title="Promenite u Engleski jezik"><img src="images/eng-flag.png"></a>
+						</span>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="header-content">
+			<div class="container">
+				<div class="row align-items-lg-center">
+					<button class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarNavDropdown">
+						<span class="icon-menu"></span>
+					</button>
+					<div class="col-lg-auto col-lg-2 d-flex align-items-lg-center">
+						<a href="index.html" style="min-width: 150px;" class="header-logo"><img src="images/logo.svg" alt="" class="img-fluid"></a>
+						<a href="en/index.html" style="margin-top:8px;" class="header-language" title="Promenite u Engleski jezik"><img width="50" src="images/eng-flag.png"></a>
+					</div>
+					<div class="col-lg ml-auto header-nav-wrap">
+						<div class="header-nav js-header-nav">
+							<nav class="navbar navbar-expand-lg btco-hover-menu">
+								<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+									<ul class="navbar-nav">
+										<li class="nav-item">
+											<a class="nav-link" href="about.html">O nama</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="gallery.html">Galerija</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="education.html">Edukacije</a>
+											</li>
+										<li class="nav-item">
+											<a class="nav-link" href="contact.html">Kontakt</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="services.html">Usluge</a>
+										</li>
+									</ul>
+								</div>
+							</nav>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--//header-->
+	<div class="page-content">
+		<!--section slider-->
+		<div class="section mt-0">
+			<div class="quickLinks-wrap right js-quickLinks-wrap-d d-none d-lg-flex">
+				<div class="quickLinks js-quickLinks">
+					<div class="container">
+						<div class="row no-gutters">
+							<div class="col">
+								<a href="#" class="link">
+									<i class="icon-placeholder"></i><span>Lokacija</span></a>
+								<div class="link-drop p-0">
+									<div id="googleMapDrop" class="google-map"></div>
+								</div>
+							</div>
+							<div class="col">
+								<a href="#" class="link">
+									<i class="icon-clock"></i><span>Radno vreme</span>
+								</a>
+								<div class="link-drop">
+									<h5 class="link-drop-title"><i class="icon-clock"></i>Radno vreme</h5>
+									<table class="row-table">
+										<tr>
+											<td><i>Ponedeljak - Petak</i></td>
+											<td>08:00 - 17:00</td>
+										</tr>
+										<tr>
+											<td><i>Subota</i></td>
+											<td>Zatvoreno</td>
+										</tr>
+										<tr>
+											<td><i>Nedelja</i></td>
+											<td>Zatvoreno</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+							<div class="col">
+                                <a id="bookingAppointment" href='#' class="link" >
+									<i class="icon-pencil-writing"></i><span>Zakazivanje termina</span>
+								</a>
+							</div>
+							<div class="col">
+								<a id="services" href="services.html" class="link">
+									<i class="icon-icon-orthodontics"></i><span>Usluge</span>
+								</a>
+							</div>
+							<div class="col col-close"><a href="#" class="js-quickLinks-close"><i class="icon-top" data-toggle="tooltip" data-placement="top" title="Close panel"></i></a></div>
+						</div>
+					</div>
+					<div class="quickLinks-open js-quickLinks-open"><span data-toggle="tooltip" data-placement="left" title="Open panel">+</span></div>
+				</div>
+			</div>
+			<div id="mainSliderWrapper">
+				<div class="loading-content">
+					<div class="inner-circles-loader"></div>
+				</div>
+				<div class="main-slider arrows-white arrows-bottom" id="mainSlider" data-slick='{"arrows": false, "dots": false}'>
+					<div class="slide">
+						<div class="img--holder" data-animation="kenburns" data-bg="images/content/slider/slide-02.jpg"></div>
+						<div class="slide-content center">
+							<div class="vert-wrap container">
+								<div class="vert">
+									<div class="container">
+										<div class="slide-txt1" data-animation="fadeInDown" data-animation-delay="1s"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="img--holder" data-animation="kenburns" data-bg="images/content/slider/slide-01.jpg"></div>
+						<div class="slide-content center">
+							<div class="vert-wrap container">
+								<div class="vert">
+									<div class="container">
+										<div class="slide-txt1" data-animation="fadeInDown" data-animation-delay="1s">Lep osmeh
+											<br><b>povećava samopouzdanje !</b></div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--//section slider-->
+		<!--section welcome-->
+		<div class="section">
+			<div class="container pt-lg-2">
+				<div class="title-wrap text-center text-md-left d-lg-none mb-lg-2">
+					<h2 class="h1">Dobrodošli u <span class="theme-color"><br>Osmeh za promenu</span></h2>
+				</div>
+				<div class="row mt-2 mt-md-3 mt-lg-0">
+					<div class="col-md-6">
+						<div class="title-wrap hidden d-none d-lg-block text-center text-md-left">
+							
+							<h2 class="h1">Dobrodošli u <span class="theme-color"><br>Osmeh za promenu</span></h2>
+						</div>
+						<div>
+							<p>Mi smo <b>grupacija mladih profesionalaca</b> koji Vam nudi <b>vrhunske stomatološke usluge sa rezultatima koji Vas sigurno nece ostaviti RAVNODUŠNIM!</b></p>
+							<p>Kada je <b>vaša vizuelna poruka pozitivna</b>, osoba s kojom razgovarate, kažu <b>psiholozi</b>, pretpostavit će kako su i vaše druge osobine pozitivne.</p>
+							<p>Poznati sociolingvist Albert Mehrabian u svome istraživanju je ukazao kako u susretu licem u lice, <b>55% poruke koju želite preneti daje govor tela i OSMEH.</b> </p>
+						</div>
+						<div class="mt-2 mt-md-4"></div>
+						
+					</div>
+					<div class="col-md-6 mt-3 mt-md-0">
+						<div class="video-wrap embed-responsive embed-responsive-16by9">
+							<video src="images/Kreativ%20Dental%20Lab%20music%20copy.mp4" poster="images/poster.jpg" controls preload="metadata">
+								 <!--<source src="images/VID-20180316-WA0004.mp4" type="video/mp4">-->
+							</video>
+							<!--<iframe src="https://www.youtube.com/embed/GUZCDH57iow?autoplay=0&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;start=70" allowfullscreen> </iframe>-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="container">
+				<div class="title-wrap text-center">
+					<div class="h-sub theme-color">Vidite razliku</div>
+					<h2 class="h1">Zašto izabrati nas?</h2>
+					<div class="h-decor"></div>
+				</div>
+				<div class="row js-icn-carousel icn-carousel flex-column flex-sm-row text-center text-sm-left" data-slick='{"slidesToShow": 3, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 2}}]}'>
+					<div class="col-md">
+						<div class="icn-text icn-text-wmax">
+							<div class="icn-text-circle"> <img src="images/favicon.jpg"> </i></div>
+							<div>
+								<h5 class="icn-text-title">Stomatologija na visokom nivou</h5>
+								<p>Pružamo sveobuhvatno planiranje lečenja i sledimo stroge standarde koji osiguravaju <b>kvalitetne usluge.</b></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="icn-text icn-text-wmax">
+							<div class="icn-text-circle"><i class="icon-team"></i></div>
+							<div>
+								<h5 class="icn-text-title">Posvećen tim</h5>
+								<p>Mi smo iskusni, <b>visoko obučeni </b>, i nastupamo u skladu sa vašim potrebama.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="icn-text">
+							<div class="icn-text-circle"><i class="icon-dental-chair"></i></div>
+							<div>
+								<h5 class="icn-text-title">Savremena oprema</h5>
+								<p>Vrlo smo <b>pažljivi prema detaljima</b> mnogo ulažemo u opremu i obrazovanje kako bismo pacijentima pružili <b>najbolju moguću negu.</b></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 text-center pr-md-4">
+					<div class="mt-2 mt-md-4"></div>
+					<img src="images/95.png" class="w-100" alt="">
+				</div>
+				<div class="col-lg-6 mt-3 mt-lg-0">
+					<h1 class="centerItem"><span class="theme-color">Uspešno</span> rešenih intervencija</h1>
+					<div class="mt-0 mt-md-4"></div>
+				</div>
+			</div>
+		</div>
+		
+
+		<section id="clients" class="wow fadeInUp">
+			<div class="container-1">
+	
+				<header class="section-header">
+					<h3>Naši partneri</h3>
+				</header>
+				<div class="owl-carousel clients-carousel wow zoomIn">
+					<a href="https://www.interdent-bg.com/" target="_blank"><img src="images/clients/client-1.jpeg"></a>
+					<a href="https://www.vita-zahnfabrik.com/en/VITA-Zahnfabrik-This-is-how-prosthetics-are-made-88384.html" target="_blank"><img src="images/clients/client-2.jpeg"></a>
+					<a href="https://www.resivoje.com/" target="_blank"><img src="images/clients/client-3.jpg"></a>
+					<a href="https://biznisinkubator.rs/" target="_blank"><img src="images/clients/client-4.png"></a>
+				</div>
+	
+			</div>
+		</section>
+		
+	</div>
+	<!--footer-->
+	<div class="footer mt-0">
+		<div class="container">
+			<div class="row py-1 py-md-2 px-lg-0">
+				<div class="col-lg-4 footer-col1">
+					<div class="row flex-column flex-md-row flex-lg-column">
+						<div class="col-md col-lg-auto">
+							<div class="footer-logo">
+								<img src="images/logo.svg" alt="" class="img-fluid">
+							</div>
+							<div class="mt-2 mt-lg-0"></div>
+							<div class="footer-social d-none d-md-block d-lg-none">
+								<a href="https://www.facebook.com/" target="blank" class="hovicon"><i class="icon-facebook-logo"></i></a>
+								
+								<a href="https://www.instagram.com/" target="blank" class="hovicon"><i class="icon-instagram"></i></a>
+							</div>
+						</div>
+						<div class="col-md">
+							<div class="footer-text mt-1 mt-lg-2">
+							
+							</div>
+							<div class="footer-social d-md-none d-lg-block">
+								<a href="https://www.facebook.com/smileforachange/?__tn__=%2Cd%2CP-R&eid=ARCH7idMKrF4Zm1Uosiwbt9XziMZao6LZD_ZmvsLSlStCL2sP4I9NUZYVYi5yzX5JilQc0jsqumld6G_" target="blank" class="hovicon"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+								<a href="https://www.instagram.com/kreativ.dental.lab/" target="blank" class="hovicon"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+								<a href="https://www.instagram.com/kreativ.dental.lab/" target="blank" class="hovicon"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4">
+				</div>
+				<div class="col-sm-6 col-lg-4">
+					<h3>Kontaktirajte nas</h3>
+					<div class="h-decor"></div>
+					<ul class="icn-list">
+						<li><i class="icon-black-envelope"></i><a href="mailto:info@dentco.net">info@osmehzapromenu.rs</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row text-center text-md-left">
+					<div class="col-sm">Copyright © 2019 <a href="https://www.resivoje.com/">Rešivoje</a><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="modal modal-form fade" id="modalBookingForm">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<button aria-label='Close' class='close' data-dismiss='modal'>
+						<i class="icon-error"></i>
+					</button>
+					<div class="modal-body">
+						<div class="modal-form">
+							<h3>Zakaži termin</h3>
+							<form class="mt-15" id="bookingForm"  novalidate>
+								<div class="successform">
+									<p>Uspešno ste zakazali termin</p>
+								</div>
+								<div class="errorform">
+									<p>Nešto nije u redu porobajte ponovo !</p>
+								</div>
+
+								<div class="input-group">
+										<span>
+											<i class="icon-user"></i>
+										</span>
+									<input type="text" onblur="$(this).valid()" id="bookingname" name="bookingname" class="form-control" autocomplete="off" placeholder="Vaše ime*" />
+								</div>
+
+								<div class="input-group">
+										<span>
+											<i class="icon-user"></i>
+										</span>
+									<input type="text" onblur="$(this).valid()" id="bookinglastname" name="bookinglastname" class="form-control" autocomplete="off" placeholder="Vaše prezime*" />
+								</div>
+								<div class="row row-xs-space mt-1">
+									<div class="col-sm-12">
+										<div class="input-group">
+										<span>
+											<i class="icon-email2"></i>
+										</span>
+											<input type="text" onblur="$(this).valid()" id="bookingemail" name="bookingemail" class="form-control" autocomplete="off" placeholder="Vaš e-mail*" />
+										</div>
+									</div>
+								</div>
+								<div class="row row-xs-space mt-1">
+									<div class="col-sm-6 mt-1 mt-sm-0">
+										<div class="input-group">
+										<span>
+											<i class="icon-smartphone"></i>
+										</span>
+											<input type="text" name="bookingphone" placeholder="xxx/xxx-xxxx" id="bookingphone" onblur="$(this).valid()" class="form-control" autocomplete="off" />
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="input-group">
+										<span>
+											<i class="icon-birthday"></i>
+										</span>
+											<input type="text" name="bookingage" id="bookingage" onblur="$(this).valid()" class="form-control" autocomplete="off" placeholder="Godine" />
+										</div>
+									</div>
+								</div>
+								<div class="row row-xs-space mt-1">
+									<div class="col-sm-6 mt-1 mt-sm-0">
+										<div class="input-group flex-nowrap mt-1">
+										<span>
+											<i class="icon-calendar2"></i>
+										</span>
+											<div class="datepicker-wrap">
+												<input name="bookingdate" id="bookingdate" type="text" onblur="$(this).valid()" class="form-control datetimepicker" placeholder="Datum :" readonly>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-6 mt-1 mt-sm-0">
+										<div class="input-group flex-nowrap mt-1">
+										<span>
+											<i class="icon-clock"></i>
+										</span>
+											<div class="datepicker-wrap">
+												<input name="bookingtime" id="bookingtime"  onblur="$(this).valid()" type="text" class="form-control timepicker" placeholder="Vreme :">
+											</div>
+										</div>
+									</div>
+								</div>
+								<textarea name="bookingmessage" id="bookingmessage" class="form-control" placeholder="Koje su vaše želje ?"></textarea>
+								<div class="text-right mt-2">
+									<button type="submit" class="btn btn-sm btn-hover-fill">Zakaži</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<!-- Vendors -->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="vendor/jquery-migrate/jquery-migrate-3.0.1.min.js"></script>
+	<script src="vendor/cookie/jquery.cookie.js"></script>
+	<script src="vendor/bootstrap-datetimepicker/moment.js"></script>
+	<script src="vendor/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"></script>
+	<script src="vendor/popper/popper.min.js"></script>
+	<script src="vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="vendor/waypoints/jquery.waypoints.min.js"></script>
+	<script src="vendor/waypoints/sticky.min.js"></script>
+	<script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+	<script src="vendor/slick/slick.min.js"></script>
+	<script src="vendor/scroll-with-ease/jquery.scroll-with-ease.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment-with-locales.min.js" charset="UTF-8"></script>
+	<script src="vendor/countTo/jquery.countTo.js"></script>
+	<script src="vendor/form-validation/jquery.form.js"></script>
+	<script src="vendor/form-validation/jquery.validate.min.js"></script>
+	<!-- Custom Scripts -->
+	<script src="js/app.js"></script>
+    <script src="color/color.js"></script>
+
+	<script src="js/app-shop.js"></script>
+	<script src="form/forms.js"></script>	
+	<!-- Sweetalert js -->
+	<script src="vendor/swall/sweetalert.js"></script>
+
+		<script>
+            $(document).on('click','#bookingAppointment',function(){
+                $('#modalBookingForm').modal('show');
+            });
+			let video = document.getElementById('video');
+			video.addEventListener('click',function(){
+				video.play();
+			},false);
+			</script>
+	</div>
+</body>
+
+</html>

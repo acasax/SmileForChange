@@ -1,0 +1,648 @@
+.modal.show .modal-dialog{
+    max-width: 70%;
+}
+
+#show_customer_articles_modal .modal.show .modal-dialog{
+    max-width: 70%;
+}
+
+#broken_article_modal .modal.show .modal-dialog{
+    max-width: 60%;
+}
+
+
+#payment_notifications_modal .modal.show .modal-dialog{
+    max-width: 70%;
+}
+#show_global_finance_modal .modal.show .modal-dialog{
+    max-width:70%;
+    position: relative;
+}
+
+#invoiceModal .modal.show .modal-dialog{
+    max-width: 70%;
+}
+#userModal .modal.show .modal-dialog{
+    max-width: 70%;
+}
+
+#billModal .modal.show .modal-dialog{
+    max-width: 100%;
+}
+
+
+
+
+
+
+.article_buttons_div{
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+.article_buttons_div .articl_left_button_div{
+    float: left;
+}
+
+.article_buttons_div .articl_right_button_div{
+    float: right;
+}
+
+
+
+
+.date_of_broken_article{
+    width: 100%;
+}
+
+.card_title_div .card_right_button_div{
+    float: right;
+    margin-right: 2%;
+}
+
+#edit_excerpt_button.hidden{
+    display: none;
+}
+
+.excerptFormButtonDiv{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+.shearch_for_excerpt_data_button_div{
+    padding-top:30px;
+}
+
+
+.edit_excerpt_data{
+    display: none;
+}
+
+
+.select_rate_div,
+.input-number-bill{
+    display: none;
+}
+
+
+.total_table_finance tr > td:nth-child(1){
+    width: 200px;
+}
+.total_table_finance tr > td:nth-child(2){
+    width: 200px;
+}
+
+.nav-sidebar>.nav-item .nav-icon.appointment-picture {width: 30px; height: 30px; display: block; float: left; margin-right: 5px; margin-top: -5px; background: url(../img/icons/3D/client.png) no-repeat center;}
+.nav-sidebar>.nav-item .nav-icon.set-term-picture {width: 30px; height: 30px; display: block; float: left; margin-right: 5px; margin-top: -7px; background: url(../img/icons/3D/set-appointment.png) no-repeat center;}
+.nav-sidebar>.nav-item .nav-icon.logout-picture {width: 30px; height: 30px; display: block; float: left; margin-right: 5px;    margin-top: -5px; background: url(../img/icons/3D/logout.png) no-repeat center;}
+.nav-sidebar>.nav-item .nav-icon.cancel-appointment-picture {width: 30px; height: 30px; display: block; float: left; margin-right: 5px;    margin-top: -5px; background: url(../img/icons/3D/cancel_appointments.png) no-repeat center;}
+
+
+.notificationPayedIcon {
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    background: url(../img/icons/3D/checked.png) no-repeat center;
+    cursor: pointer;
+}
+.notificationPayedIcon:hover{
+    transform: scale(1.1);
+}
+
+.dropdown-divider{
+    border-top: 1px solid #d1d4d7;
+}
+
+.articl_right_button_div  img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.articl_right_button_div  img:active{
+  outline: none;
+}
+
+
+
+
+
+.update_invoice,.update{width: 30px; height: 30px; display: inline-block;  background: url(../img/icons/3D/edit.png) no-repeat center 2px;}
+.delete_button, .delete,.delete_invoice {width: 30px; height: 30px; margin-right: 5px; background: url(../img/icons/3D/delete.png) no-repeat center 2px;}
+.hit_price {width: 30px; height: 30px;  display: inline-block; background: url(../img/icons/3D/info.png) no-repeat center 2px;}
+.add_broken_article {width: 30px; height: 30px; display: inline-block;  background: url(../img/icons/3D/broken.png) no-repeat center 2px;}
+.preview {cursor:pointer;width: 30px; height: 30px;  display: inline-block;background: url(../img/icons/3D/miniSearch.png) no-repeat center 2px;}
+.edit_invoice_desc {width: 30px; height: 30px;  display: inline-block;  background: url(../img/icons/3D/editDesc.png) no-repeat center 2px;}
+.print {width: 30px; height: 30px;  display: inline-block;  background: url(../img/icons/3D/print.png) no-repeat center 2px;}
+.restore {width: 30px; height: 30px;  display: inline-block;  background: url(../img/icons/3D/restore.png) no-repeat center 2px;}
+.createInvoice {width: 30px; height: 30px;  display: inline-block;  background: url(../img/icons/3D/create_invoice.png) no-repeat center 2px;}
+.cancelIndent {width: 30px; height: 30px;  display: inline-block;  background: url(../img/icons/3D/cancel_invoice.png) no-repeat center 2px;}
+
+.btn.focus, .btn:focus,.btn:active {
+    box-shadow: none;
+    outline: none;
+}
+
+.btn:not(:disabled):not(.disabled).active:focus, .btn:not(:disabled):not(.disabled):active:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.content-header {
+    padding: 10px 10px 0px 10px;
+}
+
+
+.update_invoice:hover,.update:hover, .delete:hover,.delete_invoice:hover,.add_broken_article:hover,.hit_price:hover,.preview:hover,.edit_invoice_desc:hover{
+    transform: scale(1.1);
+}
+
+.customer_notification{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.dropdown-menu .dropdown-item.dropdown-header{
+    cursor: pointer;
+    user-select: none;
+}
+
+.footer-div{
+    width: 45%;
+    display: inline-block;
+}
+
+
+.bills_buttons_div{
+    padding-bottom: 15px;
+    padding-top: 20px
+}
+.bills_buttons_div .bills_left_button_div{
+    float: left;
+}
+
+.bills_buttons_div .bills_right_button_div{
+    float: right;
+}
+
+.show_global_finance_year_select_div{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.display-none{
+    display: none;
+}
+
+.padding-top-30{
+    padding-top:30px;
+}
+
+#article_show_table,#show_invoice_by_year_table,#article_show_table{
+    border-collapse: unset;
+}
+
+.user-select-none{
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.user-panel img {
+    width: 2.1rem;
+    height: auto;
+}
+
+.user-panel .info {
+    display: inline-block;
+    padding: 5px 5px 5px 20px;
+}
+
+
+.updateContext{
+    display: none;
+}
+
+.addNewArticle{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.card-header{
+    position: relative;
+}
+.select-invoice-state,
+.select-article-state,
+.select-customer-status,
+.select-accounts-status,
+.state-indents-status{
+   position: absolute;
+    top: 4px;
+    right: 3px;
+}
+
+.image_of_product{
+    min-height: 120px;
+}
+
+.image_of_product img {
+    max-width: 150px;
+}
+
+.indent_div,
+.categories_div,
+.subcategories_div,
+.product-list
+{
+    display:none;
+}
+
+.indent_div.show,
+.subcategories_div.show,
+.product-list.show{
+    display:block;
+}
+
+.one_category .card,
+.one_product .card{
+    padding: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.one_category .card:hover,
+.one_product .card-footer .add_product{
+    transform: scale(1.09);
+}
+
+.one_category .card:active,
+.one_product .card-footer .add_product{
+    transform: scale(1.00);
+}
+
+
+.one_category .card-body,
+.one_product .card-body{
+    padding: 0px;
+}
+
+.one_category .card-body .card-title{
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.one_product .card-body .card-title{
+    font-size: 14px;
+    text-align: left;
+    width: 85%;
+}
+.one_product .card-body .price{
+    padding: 10px 5px 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.one_product .card-body .price > div > label{
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.one_product .card-body .price > div{
+    text-align: right;
+}
+
+.breadcrumb .breadcrumb-item{
+    cursor: pointer;
+}
+
+.one_product .card{
+    min-height: 180px;
+    max-height: 180px;
+}
+
+.one_product .card-footer {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    font-size: 14px;
+    padding:5px;
+}
+.one_product .card-footer::after{
+    display: none;
+}
+
+.one_product .card-footer .add_product{
+    cursor: pointer;
+}
+
+.one_product .card-footer > i{
+    font-size: 18px;
+}
+
+.one_category .card-img-top{
+    width: 70px;
+    height: 70px;
+    max-width: 80px;
+    max-height: 80px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.indent_div .categories_div.show{
+    display: flex;
+    width: 100%;
+}
+
+
+.indent_div .categories_div > div,
+.indent_div .subcategories_div > div,
+.indent_div .product-list > div{
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 8%;
+    padding: 10px;
+}
+
+.indent_div .product-list > div{
+    width: 20%;
+}
+
+.category_subcategory_class > nav {
+    width: 30%;
+}
+
+
+.category_subcategory_class{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.category_subcategory_class.show .breadcrumb{
+    background-color: #f7f7f7;
+}
+
+.breadcrumb{
+    background-color: white;
+}
+
+.addQuantityModal.modal.show .modal-dialog{
+    max-width: 20%;
+}
+
+
+
+.indent_table{
+    width: 70%;
+    margin: 0px auto;
+}
+
+.articleImage {
+    text-align: center;
+    margin: 0px auto;
+}
+
+.one_product .card {
+    position: relative;
+}
+
+.card-show-image {
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    cursor: pointer;
+}
+.card-show-image {width: 34px; height: 34px;  display: inline-block;  background: url(../img/icons/3D/previewIcon.png) no-repeat center 2px;}
+.shoppingCart {width: 34px; height: 34px;  display: inline-block;  background: url(../img/icons/3D/shoppingCart.png) no-repeat center 2px;}
+
+.one_product .card-body{
+    position: relative;
+}
+
+.one_product .card-body .price{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.indent-add-quantity-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.indent-add-quantity-div > div{
+    padding: 5px;
+}
+
+.tab-pane.show{
+    display: none;
+}
+.tab-pane.active{
+    display: block;
+}
+
+.nav-pills > li > a,
+.nav-pills > li > ul > li > a{
+    min-width: 150px;
+    text-align: center;
+    padding: 10px 15px;
+    color: #163150;
+    line-height: 1.42857143;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+
+    border-radius: 2px;
+}
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active {
+    background: rgba(248, 250, 252, 0.25);
+}
+
+.nav-pills > li > a.active {
+    border: 0px;
+    text-shadow: rgba(0, 0, 0, 0.69) 1px 1px 0px;
+    -webkit-box-shadow: inset 0px -1px 2px 0.7px rgba(53,106,160,1), 0 8px 6px -6px #6a6a6a, 6px 0px 6px -4px rgba(102,97,102,1);
+    -moz-box-shadow: inset 0px -1px 2px 0.7px rgba(53,106,160,1), 0 8px 6px -6px #6a6a6a, 6px 0px 6px -4px rgba(102,97,102,1);
+    box-shadow: inset 0px -1px 2px 0.7px rgba(53,106,160,1), 0 0px 6px -6px #6a6a6a, 6px 0px 6px -4px rgba(102,97,102,1);
+    background: rgb(49, 112, 143);
+    background: -moz-linear-gradient(top, rgb(49, 112, 143) 1%, rgba(22,49,80,1) 100%);
+    background: -webkit-linear-gradient(top, rgb(49, 112, 143) 1%,rgba(22,49,80,1) 100%);
+    background: linear-gradient(to bottom, #31708f 1%, rgb(27, 75, 106) 100%);
+}
+
+#loading {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/icons/loader.gif') no-repeat center center;
+   /* background: #fff url('../img/icons/Loading_icon.gif') no-repeat center center;*/
+    z-index: 9999;
+}
+
+#loading.show{
+    display: block;
+}
+
+
+.indent-bill-context {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+@media only screen  and (min-width:700px) and (max-width:1000px) {
+
+    .indent_div .categories_div > div,
+    .indent_div .subcategories_div > div{
+        width: 20%;
+    }
+
+    .indent_div .product-list > div {
+        width: 33%;
+    }
+
+
+    .previewArticleImage.modal.show .modal-dialog{
+        max-width: 98%;
+    }
+    .modal.show{
+        z-index: 3000;
+    }
+
+    .addQuantityModal.modal.show .modal-dialog{
+        max-width: 60%;
+    }
+
+    .articleImage {
+        max-width: 90%;
+        max-height: 80%;
+    }
+
+    .indentPreviewModal.modal.show .modal-dialog{
+        max-width: 95% !important;
+    }
+
+    .one_product .card{
+        min-height: 180px;
+        max-height: 180px;
+    }
+
+    .indent_table{
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+@media only screen  and (min-width:1000px) and (max-width:1400px) and (orientation:landscape) {
+
+    .indent_div .categories_div > div,
+    .indent_div .subcategories_div > div,
+    .indent_div .product-list > div {
+        display: inline-flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        width: 20%;
+        padding: 10px;
+    }
+    .indent_div .product-list > div {
+        width: 32%;
+        padding: 5px;
+    }
+    .indent_div .product-list .card{
+        min-height: 100px;
+    }
+
+
+    .one_category .card-body, .one_product .card-body {
+        margin: 0px 20px 5px;
+    }
+
+    .previewArticleImage.modal.show .modal-dialog{
+        max-width: 98%;
+    }
+
+    .modal.show .modal-dialog{
+        min-width: 80%;
+    }
+    .modal.show{
+        z-index: 3000;
+    }
+
+    .articleImage {
+        max-width: 1000px;
+        max-height: 565px;
+    }
+
+    .addQuantityModal.modal.show .modal-dialog{
+        max-width: 30%;
+    }
+
+    .indent_div.show,
+    .subcategories_div.show,
+    .product-list.show {
+        margin-left: 10px;
+    }
+
+    .indentPreviewModal.modal.show .modal-dialog{
+        max-width: 95% !important;
+    }
+
+    .indent-add-quantity-div > div button{
+        max-width: 60px;
+        font-size: 20px;
+    }
+
+    .indent_table{
+        width: 100%;
+    }
+}
+
+
+#toTop{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: none;
+    z-index: 9999;
+}
+
+.editIndentItem{
+    display: none;
+}
+.normalIndent{
+    display: none;
+}
+
+.editIndentItem.show{
+    display: block;
+}
+
+.normalIndent.show{
+    display: block;
+}
+
+

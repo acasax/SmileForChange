@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="../images/favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="description" content="html 5 template, dentist, stomatologist, dental clinic template, medical template, clinic template, surgery clinic theme, plastic surgery template">
+	<meta name="author" content="websmirno.site">
+	<meta name="format-detection" content="telephone=no">
+	<title>Smile for change</title>
+	<!-- Stylesheets -->
+	<link href="../vendor/slick/slick.css" rel="stylesheet">
+	<link href="../vendor/animate/animate.min.css" rel="stylesheet">
+	<link href="../icons/style.css" rel="stylesheet">
+	<link href="../vendor/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet">
+	<link href="../css/style-0.css" rel="stylesheet">
+	<link href="../css/style.css" rel="stylesheet"> 
+     <link href="../css/main.css" rel="stylesheet">
+    <link href="../color/color.css" rel="stylesheet">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Google map -->
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
+	<link rel="stylesheet" href="../admin/dist/css/loginArea.css">
+
+
+	<!-- Sweetalert style -->
+	<link rel="stylesheet" href="../vendor/swall/sweetalert.css">
+</head>
+
+<body class="shop-page">
+
+<!--header-->
+<header class="header">
+		<div class="header-quickLinks js-header-quickLinks d-lg-none">
+			<div class="quickLinks-top js-quickLinks-top"></div>
+			<div class="js-quickLinks-wrap-m">
+			</div>
+		</div>
+		<div class="header-topline d-none d-lg-flex">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-auto d-flex align-items-center">
+						<div class="header-info"><i class="icon-black-envelope"></i><a href="mailto:info@osmehzapromenu.com">info@osmehzapromenu.com</a></div>
+					</div>
+					<div class="col-auto ml-auto d-flex align-items-center">
+						<span class="header-social">
+							<a href="https://www.instagram.com/kreativ.dental.lab/" style="padding: 23px 15px; transform: scale(1.5);"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+							<a href="https://www.instagram.com/kreativ.dental.lab/" style="padding: 23px 15px; transform: scale(1.5);"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+							<a href="https://www.instagram.com/kreativ.dental.lab/" style="padding: 23px 15px; transform: scale(1.5);"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                          	<a href="../index.html" class="hovicon" title="Chane language to Serbian"><img src="../images/srb-flag.png"></a>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-content">
+			<div class="container">
+				<div class="row align-items-lg-center">
+					<button class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarNavDropdown">
+						<span class="icon-menu"></span>
+					</button>
+					<div class="col-lg-auto col-lg-2 d-flex align-items-lg-center">
+						<a href="index.html"  style="min-width: 150px;" class="header-logo"><img src="../images/logo.svg" alt="" class="img-fluid"></a>
+						<a href="../index.html" style="margin-top:8px;" class="header-language" title="Change language to Serbian"><img  width="50" src="../images/srb-flag.png"></a>
+					</div>
+					<div class="col-lg ml-auto header-nav-wrap">
+						<div class="header-nav js-header-nav">
+							<nav class="navbar navbar-expand-lg btco-hover-menu">
+								<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+									<ul class="navbar-nav">
+										<li class="nav-item">
+											<a class="nav-link" href="about.html">About Us</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="gallery.html">Gallery</a>
+										</li>
+										<!--<li class="nav-item">
+											<a class="nav-link" href="gallery.html">We provide education</a>
+										</li>-->
+										<li class="nav-item">
+											<a class="nav-link" href="education.html">Education</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="contact.html">Contacts</a>
+										</li>
+										<!--<li class="nav-item">
+											<a class="nav-link" href="../login.html">Login</a>
+										</li>-->
+									</ul>
+								</div>
+							</nav>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--//header-->
+	<div class="page-content">
+		<!--section slider-->
+		<div class="section mt-0">
+			<div class="quickLinks-wrap js-quickLinks-wrap-d d-none d-lg-flex">
+				<div class="quickLinks js-quickLinks">
+					<div class="container">
+						<div class="row no-gutters">
+							<div class="col">
+								<a href="#" class="link">
+									<i class="icon-placeholder"></i><span>Location</span></a>
+								<div class="link-drop p-0">
+									<div id="googleMapDrop" class="google-map"></div>
+								</div>
+							</div>
+							<div class="col">
+								<a href="#" class="link">
+									<i class="icon-clock"></i><span>Working Time</span>
+								</a>
+								<div class="link-drop">
+									<h5 class="link-drop-title"><i class="icon-clock"></i>Working Time</h5>
+									<table class="row-table">
+										<tr>
+											<td><i>Mon-Fri</i></td>
+											<td>08:00 - 17:00</td>
+										</tr>
+										<tr>
+											<td><i>Saturday</i></td>
+											<td>Closed</td>
+										</tr>
+										<tr>
+											<td><i>Sunday</i></td>
+											<td>Closed</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+							<div class="col">
+                                <a id="bookingAppointment" href='#' class="link">
+									<i class="icon-pencil-writing"></i><span>Booking Appointment</span>
+								</a>
+							</div>
+							<div class="col">
+								<a id="services" href="services.html" class="link">
+									<i class="icon-icon-orthodontics"></i><span>Services</span>
+								</a>
+							</div>
+							<div class="col col-close"><a href="#" class="js-quickLinks-close"><i class="icon-top" data-toggle="tooltip" data-placement="top" title="Close panel"></i></a></div>
+						</div>
+					</div>
+					<div class="quickLinks-open js-quickLinks-open"><span data-toggle="tooltip" data-placement="left" title="Open panel">+</span></div>
+				</div>
+			</div>
+			<div id="mainSliderWrapper">
+				<div class="loading-content">
+					<div class="inner-circles-loader"></div>
+				</div>
+				<div class="main-slider arrows-white arrows-bottom" id="mainSlider" data-slick='{"arrows": false, "dots": false}'>
+					<div class="slide">
+						<div class="img--holder" data-animation="kenburns" data-bg="../images/content/slider/slide-02.jpg"></div>
+						<div class="slide-content center">
+							<div class="vert-wrap container">
+								<div class="vert">
+									<div class="container">
+										<div class="slide-txt1" data-animation="fadeInDown" data-animation-delay="1s">A beautiful smile is 
+											<br><b>worth a thousand words</b></div>
+										<!--<div class="slide-txt2" data-animation="fadeInUp" data-animation-delay="1.5s">Helping Thousands of People to Get Perfect Smile</div>-->
+										<!--<div class="slide-btn"><a href="services.html" class="btn btn-white" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="img--holder" data-animation="kenburns" data-bg="../images/content/slider/slide-01.jpg"></div>
+						<div class="slide-content center">
+							<div class="vert-wrap container">
+								<div class="vert">
+									<div class="container">
+										<div class="slide-txt1" data-animation="fadeInDown" data-animation-delay="1s">Nothing speaks better in favor
+											<br><b>of confidence as a  beautiful smile!</b></div>
+										<!--<div class="slide-txt2" data-animation="fadeInUp" data-animation-delay="1.5s">Your pathway to a bright new smile</div>-->
+										<!--<div class="slide-btn"><a href="services.html" class="btn btn-white" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--//section slider-->
+		<!--section welcome-->
+		<div class="section">
+			<div class="container pt-lg-2">
+				<div class="title-wrap text-center text-md-left d-lg-none mb-lg-2">
+					<!--<div class="h-sub">15 Years of Dental Excellence</div>-->
+					<h2 class="h1">Welcome <br class="d-sm-none">to <br><span class="theme-color">SmileForChange</span></h2>
+				</div>
+				<div class="row mt-2 mt-md-3 mt-lg-0">
+					<div class="col-md-6">
+						<div class="title-wrap hidden d-none d-lg-block text-center text-md-left">
+							
+							<h2 class="h1">Welcome to <br><span class="theme-color">SmileForChange</span></h2>
+						</div>
+						<div>
+							<p>
+								When <b>your visual message is positive</b>, the person you are talking to, <b>psychologists</b> say, will assume that your other traits are also positive. </p>
+							<p>
+								Famous sociolinguist Albert Mehrabian in his research indicated that in a face-to-face encounter, <b>55% of the message you want to convey gives the appearance, body language and a SMILE.</b> </p>
+						</div>
+						<div class="mt-2 mt-md-4"></div>
+						
+					</div>
+					<div class="col-md-6 mt-3 mt-md-0">
+						<div class="video-wrap embed-responsive embed-responsive-16by9">
+							<iframe src="https://www.youtube.com/embed/GUZCDH57iow?autoplay=0&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;start=70" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--//section welcome-->
+		<!--section services-->
+		<!--<div class="section">
+			<div class="container-fluid px-0">
+				<div class="title-wrap text-center">
+					<div class="h-sub theme-color">What we offer</div>
+					<h2 class="h1">General Services</h2>
+					<div class="h-decor"></div>
+				</div>
+				<div class="row no-gutters services-box-wrap services-box-wrap-desktop">
+					<div class="col-4 order-1">
+						<div class="service-box-rotator js-service-box-rotator">
+							<div class="service-box service-box-greybg service-box--hiddenbtn">
+								<div class="service-box-caption text-center">
+									<div class="service-box-icon"><i class="icon-icon-whitening"></i></div>
+									<div class="service-box-icon-bg"><i class="icon-icon-whitening"></i></div>
+									<h3 class="service-box-title">Cosmetic Dentistry</h3>
+									<p>Cosmetic dentistry is concerned with the appearance of teeth and the enhancement of a person's smile</p>
+									<div class="btn-wrap"><a href="service-page.html" class="btn"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
+								</div>
+							</div>
+							<div class="service-box service-box-greybg service-box--hiddenbtn">
+								<div class="service-box-caption text-center">
+									<div class="service-box-icon"><i class="icon-icon-orthodontics"></i></div>
+									<div class="service-box-icon-bg"><i class="icon-icon-orthodontics"></i></div>
+									<h3 class="service-box-title">Orthodontics</h3>
+									<p>Diagnosis and treatment of improper bites
+										<br>and irregularity of teeth</p>
+									<div class="btn-wrap"><a href="service-page.html" class="btn"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-8 order-2">
+						<div class="service-box">
+							<div class="service-box-image" data-bg="../images/content/service-03.jpg"></div>
+							<div class="service-box-caption text-center w-50 ml-auto">
+								<h3 class="service-box-title">General Dentistry</h3>
+								<p>General dentists provide services related to the general maintenance of oral hygiene and tooth health</p>
+								<div class="btn-wrap"><a href="service-page.html" class="btn"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-8 order-3 order-lg-4 order-xl-3">
+						<div class="service-box">
+							<div class="service-box-image" data-bg="../images/content/service-04.jpg"></div>
+							<div class="service-box-caption text-center w-50 ml-auto">
+								<h3 class="service-box-title">Children's Dentistry</h3>
+								<p>Your child will receive state-of-the-art
+									<br>oral care from our team. </p>
+								<div class="btn-wrap"><a href="service-page.html" class="btn"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-4 order-5">
+						<div class="service-box-rotator js-service-box-rotator">
+							<div class="service-box service-box-greybg service-box--hiddenbtn">
+								<div class="service-box-caption text-center">
+									<div class="service-box-icon"><i class="icon-icon-implant"></i></div>
+									<div class="service-box-icon-bg"><i class="icon-icon-implant"></i></div>
+									<h3 class="service-box-title">Dental Implants</h3>
+									<p>When teeth are lost because of disease or an accident, dental implants may be a good option</p>
+									<div class="btn-wrap"><a href="service-page.html" class="btn"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
+								</div>
+							</div>
+							<div class="service-box service-box-greybg service-box--hiddenbtn">
+								<div class="service-box-caption text-center">
+									<div class="service-box-icon"><i class="icon-emergency"></i></div>
+									<div class="service-box-icon-bg"><i class="icon-emergency"></i></div>
+									<h3 class="service-box-title">Dental Emergency</h3>
+									<p>Helping thousands of people each year find
+										<br>immediate dental services</p>
+									<div class="btn-wrap"><a href="service-page.html" class="btn"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row no-gutters services-box-wrap services-box-wrap-mobile">
+					<div class="service-box-rotator js-service-box-rotator">
+						<div class="service-box service-box-greybg service-box--hiddenbtn">
+							<div class="service-box-caption text-center">
+								<div class="service-box-icon"><i class="icon-icon-whitening"></i></div>
+								<div class="service-box-icon-bg"><i class="icon-icon-whitening"></i></div>
+								<h3 class="service-box-title">Cosmetic Dentistry</h3>
+								<p>Cosmetic dentistry is concerned with the appearance of teeth and the enhancement of a person's smile</p>
+								<div class="btn-wrap"><a href="service-page.html" class="btn"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
+							</div>
+						</div>
+						<div class="service-box service-box-greybg service-box--hiddenbtn">
+							<div class="service-box-caption text-center">
+								<div class="service-box-icon"><i class="icon-icon-orthodontics"></i></div>
+								<div class="service-box-icon-bg"><i class="icon-icon-orthodontics"></i></div>
+								<h3 class="service-box-title">Orthodontics</h3>
+								<p>Diagnosis and treatment of improper bites
+									<br>and irregularity of teeth</p>
+								<div class="btn-wrap"><a href="service-page.html" class="btn"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
+							</div>
+						</div>
+						<div class="service-box service-box-greybg service-box--hiddenbtn">
+							<div class="service-box-caption text-center">
+								<div class="service-box-icon"><i class="icon-icon-implant"></i></div>
+								<div class="service-box-icon-bg"><i class="icon-icon-implant"></i></div>
+								<h3 class="service-box-title">Dental Implants</h3>
+								<p>When teeth are lost because of disease or an accident, dental implants may be a good option</p>
+								<div class="btn-wrap"><a href="service-page.html" class="btn"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
+							</div>
+						</div>
+						<div class="service-box service-box-greybg service-box--hiddenbtn">
+							<div class="service-box-caption text-center">
+								<div class="service-box-icon"><i class="icon-emergency"></i></div>
+								<div class="service-box-icon-bg"><i class="icon-emergency"></i></div>
+								<h3 class="service-box-title">Dental Emergency</h3>
+								<p>Helping thousands of people each year find
+									<br>immediate dental services</p>
+								<div class="btn-wrap"><a href="service-page.html" class="btn"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<!--//section services-->
+		<!--section why choose us-->
+		<div class="section">
+			<div class="container">
+				<div class="title-wrap text-center">
+					<div class="h-sub theme-color">See the difference</div>
+					<h2 class="h1">Why Choose Us?</h2>
+					<div class="h-decor"></div>
+				</div>
+				<div class="row js-icn-carousel icn-carousel flex-column flex-sm-row text-center text-sm-left" data-slick='{"slidesToShow": 3, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 2}}]}'>
+					<div class="col-md">
+						<div class="icn-text icn-text-wmax">
+							<div class="icn-text-circle"><i class="icon-tooth2"></i></div>
+							<div>
+								<h5 class="icn-text-title">High Standard of Dentistry</h5>
+								<p>We provide <b>comprehensive planning</b> of treatment and follow strict standards which provides that your wishes are fulfilled and give <b>best results</b></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="icn-text icn-text-wmax">
+							<div class="icn-text-circle"><i class="icon-team"></i></div>
+							<div>
+								<h5 class="icn-text-title">Dental Team</h5>
+								<p>We are experienced, <b> highly trained </b>, friendly and responsive to your needs and <b>will make every effort to make your visits effective.</b></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="icn-text">
+							<div class="icn-text-circle"><i class="icon-dental-chair"></i></div>
+							<div>
+								<h5 class="icn-text-title">Modern Equipment</h5>
+								<p>We have a <b>high attention to detail</b> when it comes to our work and invested heavily in their instruments and equipment to give patients the <b>best possible care.</b></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--//section why choose us-->
+		<!--section testimonials-->
+		<!--<div class="section bg-grey py-0">
+			<div class="container-fluid px-0">
+				<div class="row no-gutters">
+					<div class="col-sm-8 col-lg-6 mt-2 mt-lg-0 order-1 order-sm-0">
+						<div class="reviews-wrap ml-auto d-flex flex-column justify-content-center">
+							<div class="title-wrap text-center text-md-right">
+								<div class="h-sub">What People Says</div>
+								<h2 class="h1">Patient <span class="theme-color">Testimonials</span></h2>
+							</div>
+							<div class="js-reviews-carousel reviews-carousel text-center text-md-right">
+								<div class="review">
+									<p class="review-text">I Am very impressed with you all as well as being highly proficient is absolutely adorable. I feel so relaxed in her capable hands and hope to be her patient for a very long time! You are a fantastic team and I feel very privileged to come to you all!!!</p>
+									<p><span class="review-author">- Wilmer Stevenson,</span> <span class="review-author-position">Creative manager</span></p>
+								</div>
+								<div class="review">
+									<p class="review-text">I Am very impressed with you all as well as being highly proficient is absolutely adorable. I feel so relaxed in her capable hands and hope to be her patient for a very long time! You are a fantastic team and I feel very privileged to come to you all!!!</p>
+									<p><span class="review-author">- Wilmer Stevenson,</span> <span class="review-author-position">Creative manager</span></p>
+								</div>
+								<div class="review">
+									<p class="review-text">I Am very impressed with you all as well as being highly proficient is absolutely adorable. I feel so relaxed in her capable hands and hope to be her patient for a very long time! You are a fantastic team and I feel very privileged to come to you all!!!</p>
+									<p><span class="review-author">- Wilmer Stevenson,</span> <span class="review-author-position">Creative manager</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-6 order-0 order-sm-1 reviews-photo">
+						<img src="../images/content/testimonials-right.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>-->
+		<!--//section testimonials-->
+		<!--section achieved-->
+		<!--<div class="section">
+			<div class="container">
+				<div class="title-wrap text-center">
+					<div class="h-sub theme-color">Clinic Figures</div>
+					<h2 class="h1">What Have We Achieved</h2>
+					<div class="h-decor"></div>
+				</div>
+				<div class="row d-block js-counter-carousel">
+					<div class="col">
+						<div class="counter-box">
+							<div class="counter-box-icon"><i class="icon-hand"></i></div>
+							<div class="counter-box-number"><span class="count" data-to="15" data-speed="1500">0</span>+</div>
+							<div class="decor"></div>
+							<div class="counter-box-text">Years of experience</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="counter-box">
+							<div class="counter-box-icon"><i class="icon-tooth-1"></i></div>
+							<div class="counter-box-number"><span class="count" data-to="10" data-speed="1500">0</span>K</div>
+							<div class="decor"></div>
+							<div class="counter-box-text">Improved Smiles</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="counter-box">
+							<div class="counter-box-icon"><i class="icon-team"></i></div>
+							<div class="counter-box-number"><span class="count" data-to="50" data-speed="1500">0</span></div>
+							<div class="decor"></div>
+							<div class="counter-box-text">Dentistry Specialists</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="counter-box">
+							<div class="counter-box-icon"><i class="icon-placeholder3"></i></div>
+							<div class="counter-box-number"><span class="count" data-to="4" data-speed="1500">0</span></div>
+							<div class="decor"></div>
+							<div class="counter-box-text">Our Locations</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>-->
+		<!--//section achieved-->
+		<!--section faq-->
+		<!--<div class="section bg-grey py-0">
+			<div class="container-fluid px-0">
+				<div class="row no-gutters">
+					<div class="col-xl-6 banner-left bg-fullheight" style="background-image: url(../images/content/banner-left.jpg)"></div>
+					<div class="col-xl-6">
+						<div class="faq-wrap">
+							<div class="title-wrap">
+								<h2 class="h1">Patient <span class="theme-color">Information</span></h2>
+							</div>
+							<div class="nav nav-pills" role="tablist">
+								<a class="nav-link active" data-toggle="pill" href="#tab-A" role="tab">General</a>
+								<a class="nav-link" data-toggle="pill" href="#tab-B" role="tab">Urgent</a>
+							</div>
+							<div id="tab-content" class="tab-content mt-sm-1">
+								<div id="tab-A" class="tab-pane fade show active" role="tabpanel">
+									<div id="faqAccordion1" class="faq-accordion" data-children=".faq-item">
+										<div class="faq-item">
+											<a data-toggle="collapse" data-parent="#faqAccordion1" href="#faqItem1" aria-expanded="true"><span>1.</span><span>How often should I visit my dentist?</span></a>
+											<div id="faqItem1" class="collapse show faq-item-content" role="tabpanel">
+												<div>
+													<p>
+														Everyone’s needs are different, so have a chat to your dentist about how often you need to have your teeth checked by them based on the condition of your mouth, teeth and gums. It’s recommended that children see their dentist at least once a year.
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="faq-item">
+											<a data-toggle="collapse" data-parent="#faqAccordion1" href="#faqItem2" aria-expanded="false" class="collapsed"><span>2.</span><span>Why are regular dental assessments so important?</span></a>
+											<div id="faqItem2" class="collapse faq-item-content" role="tabpanel">
+												<div>
+													<p>
+														Everyone’s needs are different, so have a chat to your dentist about how often you need to have your teeth checked by them based on the condition of your mouth, teeth and gums. It’s recommended that children see their dentist at least once a year.
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="faq-item">
+											<a data-toggle="collapse" data-parent="#faqAccordion1" href="#faqItem3" aria-expanded="false" class="collapsed"><span>3.</span><span>How do I know if my teeth are healthy?</span></a>
+											<div id="faqItem3" class="collapse faq-item-content" role="tabpanel">
+												<div>
+													<p>
+														Everyone’s needs are different, so have a chat to your dentist about how often you need to have your teeth checked by them based on the condition of your mouth, teeth and gums. It’s recommended that children see their dentist at least once a year.
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="faq-item">
+											<a data-toggle="collapse" data-parent="#faqAccordion1" href="#faqItem4" aria-expanded="false" class="collapsed"><span>4.</span><span>How can I improve my oral hygiene?</span></a>
+											<div id="faqItem4" class="collapse faq-item-content" role="tabpanel">
+												<div>
+													<p>
+														Everyone’s needs are different, so have a chat to your dentist about how often you need to have your teeth checked by them based on the condition of your mouth, teeth and gums. It’s recommended that children see their dentist at least once a year.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="tab-B" class="tab-pane fade" role="tabpanel">
+									<div id="faqAccordion2" class="faq-accordion" data-children=".faq-item">
+										<div class="faq-item">
+											<a data-toggle="collapse" data-parent="#faqAccordion2" href="#faqItem21" aria-expanded="true"><span>1.</span><span>How can I improve my oral hygiene?</span></a>
+											<div id="faqItem21" class="collapse show faq-item-content" role="tabpanel">
+												<div>
+													<p>
+														Everyone’s needs are different, so have a chat to your dentist about how often you need to have your teeth checked by them based on the condition of your mouth, teeth and gums. It’s recommended that children see their dentist at least once a year.
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="faq-item">
+											<a data-toggle="collapse" data-parent="#faqAccordion2" href="#faqItem22" aria-expanded="false" class="collapsed"><span>2.</span><span>How do I know if my teeth are healthy?</span></a>
+											<div id="faqItem22" class="collapse faq-item-content" role="tabpanel">
+												<div>
+													<p>
+														Everyone’s needs are different, so have a chat to your dentist about how often you need to have your teeth checked by them based on the condition of your mouth, teeth and gums. It’s recommended that children see their dentist at least once a year.
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="faq-item">
+											<a data-toggle="collapse" data-parent="#faqAccordion2" href="#faqItem23" aria-expanded="false" class="collapsed"><span>3.</span>Why are regular dental assessments so important?</a>
+											<div id="faqItem23" class="collapse faq-item-content" role="tabpanel">
+												<div>
+													<p>
+														Everyone’s needs are different, so have a chat to your dentist about how often you need to have your teeth checked by them based on the condition of your mouth, teeth and gums. It’s recommended that children see their dentist at least once a year.
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="faq-item">
+											<a data-toggle="collapse" data-parent="#faqAccordion2" href="#faqItem24" aria-expanded="false" class="collapsed"><span>4.</span><span>How often 1 should I visit my dentist?</span></a>
+											<div id="faqItem24" class="collapse faq-item-content" role="tabpanel">
+												<div>
+													<p>
+														Everyone’s needs are different, so have a chat to your dentist about how often you need to have your teeth checked by them based on the condition of your mouth, teeth and gums. It’s recommended that children see their dentist at least once a year.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a href="#" class="btn mt-15 mt-md-3" data-toggle="modal" data-target="#modalQuestionForm"><i class="icon-right-arrow"></i><span>Ask question</span><i class="icon-right-arrow"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>-->
+		<!--//section faq-->
+		<!--section special offers-->
+		<!--<div class="section" id="specialOffer">
+			<div class="container">
+				<div class="title-wrap text-center">
+					<div class="h-sub theme-color">For Our Dear Clients</div>
+					<h2 class="h1">Special Offers</h2>
+					<div class="h-decor"></div>
+				</div>
+				<div class="special-carousel js-special-carousel row">
+					<div class="col-6">
+						<div class="special-card">
+							<div class="special-card-photo">
+								<img src="../images/content/special-photo-01.jpg" alt="">
+							</div>
+							<div class="special-card-caption text-left">
+								<div class="special-card-txt1">New Patient</div>
+								<div class="special-card-txt2">Offer</div>
+								<div class="special-card-txt3">Full Consultation
+									<br>Scale & Polish discount</div>
+								<div><a href="schedule.html" class="btn"><i class="icon-right-arrow"></i><span>Schedule</span><i class="icon-right-arrow"></i></a></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="special-card">
+							<div class="special-card-photo">
+								<img src="../images/content/special-photo-02.jpg" alt="">
+							</div>
+							<div class="special-card-caption text-left">
+								<div class="special-card-txt1">Free</div>
+								<div class="special-card-txt2">Consultation</div>
+								<div class="special-card-txt3">Contact us to find out more about this offer</div>
+								<div><a href="../contact.html" class="btn"><i class="icon-right-arrow"></i><span>Contact us</span><i class="icon-right-arrow"></i></a></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="special-card">
+							<div class="special-card-photo">
+								<img src="../images/content/special-photo-03.jpg" alt="">
+							</div>
+							<div class="special-card-caption text-left">
+								<div class="special-card-txt1">Whitening</div>
+								<div class="special-card-txt2">Laser Teeth</div>
+								<div class="special-card-txt3">
+									Tooth whitening<br>and Home Bleaching</div>
+								<div><a href="../services.html" class="btn"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="special-card">
+							<div class="special-card-photo">
+								<img src="../images/content/special-photo-04.jpg" alt="">
+							</div>
+							<div class="special-card-caption text-left">
+								<div class="special-card-txt1">Porcelain</div>
+								<div class="special-card-txt2">Veneer</div>
+								<div class="special-card-txt3">6 Teeth or more in the same
+									<br>jaw, upper or lower front</div>
+								<div><a href="../service-page.html" class="btn"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>-->
+		<!--//section special offers-->
+		<!--section clients gallery-->
+		<!--<div class="section">
+			<div class="container">
+				<div class="title-wrap text-center">
+					<div class="h-sub theme-color">Our Clients Stories</div>
+					<h2 class="h1">Smile Gallery</h2>
+					<div class="h-decor"></div>
+				</div>
+				<p class="text-center max-900">Creating a beautiful smile can enhance a persons confidence and overall appearance.
+					<br>Below are some of the examples that you can be viewed.</p>
+				<div class="mt-2 mt-md-3 mt-lg-5"></div>
+				<div class="sm-gallery-row row no-gutters mx-lg-15">
+					<div class="col"><span class="gallery-popover-link" data-full="../images/content/gallery/smile-gallery-hover-01.jpg"><img src="../images/content/gallery/smile-gallery-01.jpg" alt="" class="img-fluid"></span></div>
+					<div class="col"><span class="gallery-popover-link" data-full="../images/content/gallery/smile-gallery-hover-02.jpg"><img src="../images/content/gallery/smile-gallery-02.jpg" alt="" class="img-fluid"></span></div>
+					<div class="col"><span class="gallery-popover-link" data-full="../images/content/gallery/smile-gallery-hover-03.jpg"><img src="../images/content/gallery/smile-gallery-03.jpg" alt="" class="img-fluid"></span></div>
+					<div class="col"><span class="gallery-popover-link" data-full="../images/content/gallery/smile-gallery-hover-04.jpg"><img src="../images/content/gallery/smile-gallery-04.jpg" alt="" class="img-fluid"></span></div>
+					<div class="col"><span class="gallery-popover-link" data-full="../images/content/gallery/smile-gallery-hover-05.jpg"><img src="../images/content/gallery/smile-gallery-05.jpg" alt="" class="img-fluid"></span></div>
+					<div class="col"><span class="gallery-popover-link" data-full="../images/content/gallery/smile-gallery-hover-06.jpg"><img src="../images/content/gallery/smile-gallery-06.jpg" alt="" class="img-fluid"></span></div>
+					<div class="col"><span class="gallery-popover-link" data-full="../images/content/gallery/smile-gallery-hover-07.jpg"><img src="../images/content/gallery/smile-gallery-07.jpg" alt="" class="img-fluid"></span></div>
+					<div class="col"><span class="gallery-popover-link" data-full="../images/content/gallery/smile-gallery-hover-08.jpg"><img src="../images/content/gallery/smile-gallery-08.jpg" alt="" class="img-fluid"></span></div>
+					<div class="col"><span class="gallery-popover-link" data-full="../images/content/gallery/smile-gallery-hover-09.jpg"><img src="../images/content/gallery/smile-gallery-09.jpg" alt="" class="img-fluid"></span></div>
+					<div class="col"><span class="gallery-popover-link" data-full="../images/content/gallery/smile-gallery-hover-10.jpg"><img src="../images/content/gallery/smile-gallery-10.jpg" alt="" class="img-fluid"></span></div>
+				</div>
+				<div class="text-center mt-3 mt-lg-4">
+					<a href="gallery.html" class="btn-link">View more smiles<i class="icon-right-arrow"></i></a>
+				</div>
+			</div>
+		</div>-->
+		<!--//section clients gallery-->
+		<!--section call us-->
+		<!--<div class="section mt-7">
+			<div class="container">
+				<div class="banner-call">
+					<div class="row no-gutters">
+						<div class="col-sm-5 col-lg-4 order-2 order-sm-1 mt-3 mt-md-0 text-center text-md-right">
+							<img src="../images/content/banner-callus.jpg" alt="" class="shift-left">
+						</div>
+						<div class="col-sm-7 col-lg-7 d-flex align-items-center order-1 order-sm-2">
+							<div class="text-center">
+								<h2>Looking for <br class="d-lg-none"> a <span class="theme-color">Certified Dentist?</span></h2>
+								<div class="h-decor"></div>
+								<p class="mt-sm-1 mt-lg-4 text-left text-sm-center">We're always accepting new patients! We believe in providing the best possible care to all our existing patients and welcome new patients to sample the service we have to offer. </p>
+								<div class="mt-3 mt-lg-4">
+									<a href="#" class="banner-call-phone"><i class="icon-telephone"></i>1-800-267-0000</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>-->
+		<!--section call us-->
+	</div>
+	<section id="clients" class="wow fadeInUp">
+		<div class="container-1">
+
+			<header class="section-header">
+				<h3>Our partners</h3>
+			</header>
+			<div class="owl-carousel clients-carousel wow zoomIn">
+				<a href="https://www.interdent-bg.com/" target="_blank"><img src="../images/clients/client-1.jpeg"></a>
+				<a href="https://www.vita-zahnfabrik.com/en/VITA-Zahnfabrik-This-is-how-prosthetics-are-made-88384.html" target="_blank"><img src="../images/clients/client-2.jpeg"></a>
+				<a href="https://www.resivoje.com/" target="_blank"><img src="../images/clients/client-3.jpg"></a>
+				<a href="https://biznisinkubator.rs/" target="_blank"><img src="../images/clients/client-4.png"></a>
+			</div>
+
+		</div>
+	</section>
+	<!--footer-->
+	<div class="footer mt-0">
+		<div class="container">
+			<div class="row py-1 py-md-2 px-lg-0">
+				<div class="col-lg-4 footer-col1">
+					<div class="row flex-column flex-md-row flex-lg-column">
+						<div class="col-md col-lg-auto">
+							<div class="footer-logo">
+								<img src="../images/logo.svg" alt="" class="img-fluid">
+							</div>
+							<div class="mt-2 mt-lg-0"></div>
+							<div class="footer-social d-none d-md-block d-lg-none">
+								<a href="https://www.facebook.com/smileforachange/?__tn__=%2Cd%2CP-R&eid=ARCH7idMKrF4Zm1Uosiwbt9XziMZao6LZD_ZmvsLSlStCL2sP4I9NUZYVYi5yzX5JilQc0jsqumld6G_" target="blank" class="hovicon"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+								<a href="https://www.instagram.com/kreativ.dental.lab/" target="blank" class="hovicon"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+								<a href="https://www.instagram.com/kreativ.dental.lab/" target="blank" class="hovicon"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+							</div>
+						</div>
+						<div class="col-md">
+							<div class="footer-text mt-1 mt-lg-2">
+							
+							</div>
+							<div class="footer-social d-md-none d-lg-block">
+								<a href="https://www.facebook.com/smileforachange/?__tn__=%2Cd%2CP-R&eid=ARCH7idMKrF4Zm1Uosiwbt9XziMZao6LZD_ZmvsLSlStCL2sP4I9NUZYVYi5yzX5JilQc0jsqumld6G_" target="blank" class="hovicon"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+								<a href="https://www.instagram.com/kreativ.dental.lab/" target="blank" class="hovicon"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+								<a href="https://www.instagram.com/kreativ.dental.lab/" target="blank" class="hovicon"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4">
+					<!--<h3>Blog Posts</h3>
+					<div class="h-decor"></div>
+					<div class="footer-post d-flex">
+						<div class="footer-post-photo"><img src="images/content/footer-post-author-03.jpg" alt="" class="img-fluid"></div>
+						<div class="footer-post-text">
+							<div class="footer-post-title"><a href="post.html">Medications & Oral Health</a></div>
+							<p>September 26, 2018</p>
+						</div>
+					</div>
+					<div class="footer-post d-flex">
+						<div class="footer-post-photo"><img src="images/content/footer-post-author-01.jpg" alt="" class="img-fluid"></div>
+						<div class="footer-post-text">
+							<div class="footer-post-title"><a href="post.html">Smile For Your Health!</a></div>
+							<p>August 22, 2018</p>
+						</div>
+					</div>
+					<div class="footer-post d-flex">
+						<div class="footer-post-photo"><img src="images/content/footer-post-author-02.jpg" alt="" class="img-fluid"></div>
+						<div class="footer-post-text">
+							<div class="footer-post-title"><a href="post.html">Tooth Fairy Traditions...</a></div>
+							<p>July 25, 2018</p>
+						</div>
+					</div>-->
+				</div>
+			     
+				<div class="col-sm-6 col-lg-4">
+					<h3>Contact us</h3>
+					<div class="h-decor"></div>
+					<ul class="icn-list">
+						<li><i class="icon-black-envelope"></i><a href="mailto:info@dentco.net">info@osmehzapromenu.rs</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row text-center text-md-left">
+					<div class="col-sm">Copyright © 2019 <a href="https://www.resivoje.com/">Rešivoje</a><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<!--<div class="col-sm-auto ml-auto"><span class="d-none d-sm-inline">For emergency cases&nbsp;&nbsp;&nbsp;</span><i class="icon-telephone"></i>&nbsp;&nbsp;<b>1-800-267-0000</b></div>-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//footer-->
+	<div class="backToTop js-backToTop">
+		<i class="icon icon-up-arrow"></i>
+	</div>
+	<div class="modal modal-form modal-form-sm fade" id="modalQuestionForm">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<button aria-label='Close' class='close' data-dismiss='modal'>
+					<i class="icon-error"></i>
+				</button>
+				<div class="modal-body">
+					<div class="modal-form">
+						<h3>Ask a Question</h3>
+						<form class="mt-15" id="questionForm" method="post" novalidate>
+							<div class="successform">
+								<p>Your message was sent successfully!</p>
+							</div>
+							<div class="errorform">
+								<p>Something went wrong, try refreshing and submitting the form again.</p>
+							</div>
+							<div class="input-group">
+								<span>
+								<i class="icon-user"></i>
+							</span>
+								<input type="text" name="name" class="form-control" autocomplete="off" placeholder="Your Name*" />
+							</div>
+							<div class="input-group">
+								<span>
+									<i class="icon-email2"></i>
+								</span>
+								<input type="text" name="email" class="form-control" autocomplete="off" placeholder="Your Email*" />
+							</div>
+							<div class="input-group">
+								<span>
+									<i class="icon-smartphone"></i>
+								</span>
+								<input type="text" name="phone" class="form-control" autocomplete="off" placeholder="Your Phone" />
+							</div>
+							<textarea name="message" class="form-control" placeholder="Your comment*"></textarea>
+							<div class="text-right mt-2">
+								<button type="submit" class="btn btn-sm btn-hover-fill">Ask Now</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal modal-form fade" id="modalBookingForm">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<button aria-label='Close' class='close' data-dismiss='modal'>
+					<i class="icon-error"></i>
+				</button>
+				<div class="modal-body">
+					<div class="modal-form">
+						<h3>Booking an appointment</h3>
+						<form class="mt-15" id="bookingForm"  novalidate>
+							<div class="successform">
+								<p>You have successfully scheduled an appointment !</p>
+							</div>
+							<div class="errorform">
+								<p>Something wrong enslave again!</p>
+							</div>
+
+							<div class="input-group">
+										<span>
+											<i class="icon-user"></i>
+										</span>
+								<input type="text" onblur="$(this).valid()" id="bookingname" name="bookingname" class="form-control" autocomplete="off" placeholder="Your name*" />
+							</div>
+
+							<div class="input-group">
+										<span>
+											<i class="icon-user"></i>
+										</span>
+								<input type="text" onblur="$(this).valid()" id="bookinglastname" name="bookinglastname" class="form-control" autocomplete="off" placeholder="Your last name*" />
+							</div>
+							<div class="row row-xs-space mt-1">
+								<div class="col-sm-12">
+									<div class="input-group">
+										<span>
+											<i class="icon-email2"></i>
+										</span>
+										<input type="text" onblur="$(this).valid()" id="bookingemail" name="bookingemail" class="form-control" autocomplete="off" placeholder="Your e-mail*" />
+									</div>
+								</div>
+							</div>
+							<div class="row row-xs-space mt-1">
+                              <div class="col-sm-6 mt-1 mt-sm-0">
+                                <div class="input-group">
+										<span>
+											<i class="icon-smartphone"></i>
+										</span>
+                                  <input type="text" name="bookingphone" placeholder="xxx/xxx-xxxx" id="bookingphone" onblur="$(this).valid()" class="form-control" autocomplete="off" placeholder="Your phone number" />
+                                </div>
+                              </div>
+							  <div class="col-sm-6">
+									<div class="input-group">
+										<span>
+											<i class="icon-birthday"></i>
+										</span>
+										<input type="text" name="bookingage" id="bookingage" onblur="$(this).valid()" class="form-control" autocomplete="off" placeholder="Your age :" />
+									</div>
+							  </div>
+							</div>
+							<div class="row row-xs-space mt-1">
+								<div class="col-sm-6 mt-1 mt-sm-0">
+									<div class="input-group flex-nowrap mt-1">
+										<span>
+											<i class="icon-calendar2"></i>
+										</span>
+										<div class="datepicker-wrap">
+											<input name="bookingdate" id="bookingdate" type="text" onblur="$(this).valid()" class="form-control datetimepicker" placeholder="Date :" readonly>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6 mt-1 mt-sm-0">
+									<div class="input-group flex-nowrap mt-1">
+										<span>
+											<i class="icon-clock"></i>
+										</span>
+										<div class="datepicker-wrap">
+											<input name="bookingtime" id="bookingtime"  onblur="$(this).valid()" type="text" class="form-control timepicker" placeholder="Time :">
+										</div>
+									</div>
+								</div>
+							</div>
+							<textarea name="bookingmessage" id="bookingmessage" class="form-control" placeholder="What are your wishes?"></textarea>
+							<div class="text-right mt-2">
+								<button type="submit" class="btn btn-sm btn-hover-fill">Book appointment</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- Vendors -->
+	<script src="../vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="../vendor/jquery-migrate/jquery-migrate-3.0.1.min.js"></script>
+	<script src="../vendor/cookie/jquery.cookie.js"></script>
+	<script src="../vendor/bootstrap-datetimepicker/moment.js"></script>
+	<script src="../vendor/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"></script>
+	<script src="../vendor/popper/popper.min.js"></script>
+	<script src="../vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="../vendor/waypoints/jquery.waypoints.min.js"></script>
+	<script src="../vendor/waypoints/sticky.min.js"></script>
+	<script src="../vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment-with-locales.min.js" charset="UTF-8"></script>
+	<script src="../vendor/slick/slick.min.js"></script>
+	<script src="../vendor/scroll-with-ease/jquery.scroll-with-ease.min.js"></script>
+	<script src="../vendor/countTo/jquery.countTo.js"></script>
+	<script src="../vendor/form-validation/jquery.form.js"></script>
+	<script src="../vendor/form-validation/jquery.validate.min.js"></script>
+	<!-- Sweetalert js -->
+	<script src="../vendor/swall/sweetalert.js"></script>
+	<!-- Custom Scripts -->
+	<script src="../js/app.js"></script>
+    <script src="../color/color.js"></script>
+
+	<script src="../js/app-shop.js"></script>
+	<script src="../form/forms-en.js"></script>
+	<script>
+    $(document).on('click','#bookingAppointment',function(){
+        $('#modalBookingForm').modal('show');
+    })
+	</script>
+</body>
+
+</html>

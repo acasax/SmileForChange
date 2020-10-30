@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
+  <title>Title</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="images/favicon.ico">
+  <link href="./css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
+  <!-- web font -->
+  <link href="//fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
+
+  <link rel="stylesheet" href="admin/dist/css/loginArea.css">
+  <link rel="stylesheet" href="./css/login.css?123S" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+    <!-- Sweetalert style -->
+  <link rel="stylesheet" href="vendor/swall/sweetalert.css">
+  
+<script type = "text/javascript" >
+    function preventBack(){window.history.forward();}
+    setTimeout("preventBack()", 0);
+    window.onunload=function(){null};
+
+    const onblurIsValid = ($elem) =>{
+        $elem.valid()
+        $elem = $elem[0];
+        if($elem.validationMessage) $($elem).closest('div.icon1').addClass('error')
+    }
+</script>
+</head>
+
+<body>
+<div class="w3layouts-main">
+  <div class="bg-layer">
+
+    <div class="header-main">
+      <div class="main-icon">
+        <span class="fa fa-eercast"></span>
+      </div>
+      <div class="header-left-bottom">
+        <form id="loginForm" >
+          <div class="icon1">
+            <span class="fa fa-user"></span>
+            <input type="email" onblur="onblurIsValid($(this))" id="loginusername" placeholder="E Adresa" required>
+          </div>
+          <div class="icon1">
+            <span class="fa fa-lock"></span>
+            <input type="password" onblur="onblurIsValid($(this))" id="loginpassword" placeholder="Lozinka" required>
+          </div>
+          <div class="bottom">
+            <button type="submit"  class="btn">Prijavi se</button>
+          </div>
+          <div class="links">
+            <p><a href="index.html">Osmeh za promenu</a></p>
+            <div class="clear"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+   
+    <div class="copyright">
+      <p>© 2019 Kreative Dent Lab. Sva prava su zadrzana | Design by <a href="http://resivoje.rs/" target="_blank">Resivoje</a></p>
+    </div>
+  </div>
+</div>
+<div class="loading-area">
+  <div class="loading-box"></div>
+  <div class="loading-pic">
+    <div class="cssload-container">
+      <ul class="cssload-flex-container">
+        <li>
+          <img src="admin/dist/img/kreativeLab/loader.gif" class="cssload-loading" />
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+  <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+  <script src="vendor/jquery-migrate/jquery-migrate-3.0.1.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.jss"></script>
+  <script src="form/forms.js"></script>
+  <script src="vendor/cookie/jquery.cookie.js"></script>
+  <script src="vendor/countTo/jquery.countTo.js"></script>
+  <script src="vendor/form-validation/jquery.form.js"></script>
+  <script src="vendor/form-validation/jquery.validate.min.js"></script>
+  <!-- Sweetalert js -->
+  <script src="vendor/swall/sweetalert.js"></script>
+
+</body>
+</html>

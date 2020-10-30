@@ -1,0 +1,81 @@
+.loading-area {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.loading-box {
+    width: 100%;
+    height: 100%;
+    background-color: #FFF;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    z-index: 9999;
+}
+
+.loading-pic {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    z-index: 99999;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.cssload-container {
+    margin: 19px auto 0 auto;
+    max-width: 545px;
+}
+
+.cssload-flex-container {
+    display: flex;
+    display: -o-flex;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-direction: row;
+    -o-flex-direction: row;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cssload-container ul li {
+    list-style: none;
+}
+.cssload-flex-container li {
+    padding: 10px;
+    height: 97px;
+    width: 97px;
+    margin: 29px 19px;
+    position: relative;
+    text-align: center;
+}
+.cssload-container * {
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+ul li, ol li {
+    padding: 0;
+}
+.cssload-loading {
+    width: 83px;
+    height: 83px;
+}

@@ -1,0 +1,153 @@
+
+
+.datepicker table tr td.disabled, .datepicker table tr td.disabled:hover{
+    background: rgba(206, 204, 204, 0.20);
+    color: rgb(206, 204, 204);
+    cursor: not-allowed;
+}
+.datetimepicker th.switch {
+    visibility: hidden;
+}
+.datetimepicker{
+    font-size:16px;
+}
+
+.terms_dates_set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control.error,
+.contact-form .form-control.error{
+    border: 1px solid #ff0000;
+}
+
+#setTermsByDateForm {
+    padding: 0px 15px;
+}
+#setTermsByDateForm .terms-by-date-button {
+    max-width: 100px;
+    margin: auto;
+}
+
+.input-group,
+.contact-form .input-div {
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.input-group label.error {
+    position: absolute;
+    left: 2px;
+    bottom: -28px;
+    color: #ff0000;
+}
+
+.input-group-addon {
+    margin-left: -1px;
+    display: flex;
+}
+
+.input-group.date .input-group-addon span{
+    height: auto !important;
+    width: auto !important;
+}
+
+.input-group-addon > span {
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+.eventStatusDiv{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #0000009e;
+    opacity: 0.8;
+}
+
+.eventStatusDiv.standBy {
+    color: #ffe066;
+}
+
+.eventStatusDiv.reserved {
+    color: #026c99;
+}
+
+.eventStatusDiv.notReserved {
+    color: #cbcdd1;
+}
+
+#save-event,
+#cancel-event{
+    display: none;
+}
+
+#save-event.show,
+#cancel-event.show{
+    display: block;
+}
+
+#calendar .fc-event-container .fc-event {
+    cursor: pointer;
+}
+
+#userName  {
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .fc-toolbar{
+        padding: 0px;
+    }
+
+    .fc-toolbar .fc-left{
+        padding: 5px;
+    }
+
+    .fc-toolbar .fc-center > h2 {
+        font-size: 1.2em;
+    }
+
+    .fc-toolbar .fc-left .fc-button-group > .fc-button{
+        padding: 4px 6px;
+    }
+
+    .fc-dayGrid-view .fc-body .fc-row {
+        min-height: 9em !important;
+    }
+
+    .fc-toolbar .fc-left .fc-button-group > .fc-button,
+    .fc-toolbar .fc-right .fc-button-group > .fc-button,
+    .fc-toolbar .fc-left .fc-today-button{
+        font-size: 12px;
+    }
+
+    .modal table {
+        margin-top: 30px;
+    }
+
+    .eventStatusDiv{
+        top: -15px;
+        right: -5px;
+    }
+
+}
