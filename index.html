@@ -13,7 +13,7 @@
 	<link href="vendor/slick/slick.css" rel="stylesheet">
 	<link href="vendor/animate/animate.min.css" rel="stylesheet">
 	<link href="icons/style.css" rel="stylesheet">
-	<link href="../vendor/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet">
+	<link href="vendor/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/style-0.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
@@ -76,12 +76,12 @@
 										</li>
 										<li class="nav-item">
 											<a class="nav-link" href="education.html">Edukacije</a>
-											</li>
-										<li class="nav-item">
-											<a class="nav-link" href="contact.html">Kontakt</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link" href="services.html">Usluge</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="contact.html">Kontakt</a>
 										</li>
 									</ul>
 								</div>
@@ -152,26 +152,26 @@
 				</div>
 				<div class="main-slider arrows-white arrows-bottom" id="mainSlider" data-slick='{"arrows": false, "dots": false}'>
 					<div class="slide">
-						<div class="img--holder" data-animation="kenburns" data-bg="images/content/slider/slide-02.jpg"></div>
+						<div class="img--holder" data-bg="images/content/slider/slide-02.jpg"></div>
 						<div class="slide-content center">
 							<div class="vert-wrap container">
 								<div class="vert">
 									<div class="container">
-										<div class="slide-txt1" data-animation="fadeInDown" data-animation-delay="1s"></div>
+										<div class="slide-txt1" data-animation-delay="1s"></div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="slide">
-						<div class="img--holder" data-animation="kenburns" data-bg="images/content/slider/slide-01.jpg"></div>
+						<div class="img--holder" data-bg="images/slide02.jpg"></div>
 						<div class="slide-content center">
 							<div class="vert-wrap container">
 								<div class="vert">
 									<div class="container">
-										<div class="slide-txt1" data-animation="fadeInDown" data-animation-delay="1s">Lep osmeh
+										<div class="slide-txt1" data-animation-delay="1s">Lep osmeh
 											<br><b>povećava samopouzdanje !</b></div>
-										
+
 									</div>
 								</div>
 							</div>
@@ -195,7 +195,7 @@
 						</div>
 						<div>
 							<p>Mi smo <b>grupacija mladih profesionalaca</b> koji Vam nudi <b>vrhunske stomatološke usluge sa rezultatima koji Vas sigurno nece ostaviti RAVNODUŠNIM!</b></p>
-							<p>Kada je <b>vaša vizuelna poruka pozitivna</b>, osoba s kojom razgovarate, kažu <b>psiholozi</b>, pretpostavit će kako su i vaše druge osobine pozitivne.</p>
+							<p>Kada je <b>vaša vizuelna poruka pozitivna</b>, osoba s kojom razgovarate, kažu <b>psiholozi</b>, pretpostavi će kako su i vaše druge osobine pozitivne.</p>
 							<p>Poznati sociolingvist Albert Mehrabian u svome istraživanju je ukazao kako u susretu licem u lice, <b>55% poruke koju želite preneti daje govor tela i OSMEH.</b> </p>
 						</div>
 						<div class="mt-2 mt-md-4"></div>
@@ -222,7 +222,7 @@
 				<div class="row js-icn-carousel icn-carousel flex-column flex-sm-row text-center text-sm-left" data-slick='{"slidesToShow": 3, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 2}}]}'>
 					<div class="col-md">
 						<div class="icn-text icn-text-wmax">
-							<div class="icn-text-circle"> <img src="images/favicon.jpg"> </i></div>
+							<div class="icn-text-circle"><i class="icon-tooth-5"></i></div>
 							<div>
 								<h5 class="icn-text-title">Stomatologija na visokom nivou</h5>
 								<p>Pružamo sveobuhvatno planiranje lečenja i sledimo stroge standarde koji osiguravaju <b>kvalitetne usluge.</b></p>
@@ -253,12 +253,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 text-center pr-md-4">
-					<div class="mt-2 mt-md-4"></div>
+					<div class="mt-2"></div>
 					<img src="images/95.png" class="w-100" alt="">
 				</div>
-				<div class="col-lg-6 mt-3 mt-lg-0">
-					<h1 class="centerItem"><span class="theme-color">Uspešno</span> rešenih intervencija</h1>
-					<div class="mt-0 mt-md-4"></div>
+				<div class="col-lg-6 mt-6 mt-lg-0 d-flex justify-content-center align-items-center">
+					<h1><span class="theme-color">Uspešno </span> rešenih intervencija</h1>
 				</div>
 			</div>
 		</div>
@@ -267,8 +266,8 @@
 		<section id="clients" class="wow fadeInUp">
 			<div class="container-1">
 	
-				<header class="section-header">
-					<h3>Naši partneri</h3>
+				<header class="section-header mt-4">
+					<h1>Naši partneri</h1>
 				</header>
 				<div class="owl-carousel clients-carousel wow zoomIn">
 					<a href="https://www.interdent-bg.com/" target="_blank"><img src="images/clients/client-1.jpeg"></a>
@@ -426,8 +425,8 @@
 	<script src="vendor/cookie/jquery.cookie.js"></script>
 	<script src="vendor/bootstrap-datetimepicker/moment.js"></script>
 	<script src="vendor/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"></script>
-	<script src="vendor/popper/popper.min.js"></script>
-	<script src="vendor/bootstrap/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js" integrity="sha512-7yA/d79yIhHPvcrSiB8S/7TyX0OxlccU8F/kuB8mHYjLlF1MInPbEohpoqfz0AILoq5hoD7lELZAYYHbyeEjag==" crossorigin="anonymous"></script>
+		<script src="vendor/bootstrap/bootstrap.min.js"></script>
 	<script src="vendor/waypoints/jquery.waypoints.min.js"></script>
 	<script src="vendor/waypoints/sticky.min.js"></script>
 	<script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
@@ -450,10 +449,10 @@
             $(document).on('click','#bookingAppointment',function(){
                 $('#modalBookingForm').modal('show');
             });
-			let video = document.getElementById('video');
+			/*let video = document.getElementById('video');
 			video.addEventListener('click',function(){
 				video.play();
-			},false);
+			},false);*/
 			</script>
 	</div>
 </body>
