@@ -2,37 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb2b19cf-0aa8-4600-a99e-70bcd8e21959" name="Default Changelist" comment="- ?protetic">
-      <change afterPath="$PROJECT_DIR$/en/idk.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/kdl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/kds.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Pre (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Pre (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Pre (3).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Pre (4).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Pre.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/slide02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smileforchange.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form/forms-en.js" beforeDir="false" afterPath="$PROJECT_DIR$/form/forms-en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form/forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/form/forms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idk.html" beforeDir="false" afterPath="$PROJECT_DIR$/idk.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/clients/client-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/clients/client-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kdl.html" beforeDir="false" afterPath="$PROJECT_DIR$/kdl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kds.html" beforeDir="false" afterPath="$PROJECT_DIR$/kds.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/popper/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/popper/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/plugins/datepicker/locales/bootstrap-datepicker.rs-latin.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/plugins/datepicker/locales/bootstrap-datepicker.rs-latin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/plugins/datepicker/locales/bootstrap-datepicker.rs.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/plugins/datepicker/locales/bootstrap-datepicker.rs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ajax/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ajax/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ajax/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ajax/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ajax/dbconfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ajax/dbconfig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ajax/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ajax/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +84,11 @@
       <workItem from="1604095426866" duration="1369000" />
       <workItem from="1605698116386" duration="9534000" />
       <workItem from="1605989748702" duration="12000" />
-      <workItem from="1606058768369" duration="11705000" />
+      <workItem from="1606058768369" duration="14028000" />
+      <workItem from="1606080846111" duration="197000" />
+      <workItem from="1606151502630" duration="1341000" />
+      <workItem from="1606158029902" duration="6110000" />
+      <workItem from="1606165520118" duration="127000" />
     </task>
     <task id="LOCAL-00001" summary="- ?protetic">
       <created>1583672655986</created>

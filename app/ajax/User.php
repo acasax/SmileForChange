@@ -60,7 +60,7 @@ class User extends \Firebase\JWT\JWT
         $mail->MsgHTML($message);
 
         if(!$mail->Send()){
-            throw new Exception("Nije moguce poslati email. Pokusajte ponovo.");
+            throw new Exception ("Nije moguce poslati email. Pokusajte ponovo.");
             return false;
         }else{
             return true;
@@ -70,7 +70,7 @@ class User extends \Firebase\JWT\JWT
    function send_custom_email($email, $message, $subject)
    {
 
-      $mail = new PHPMailer();
+      $mail = new PHPMailer(true);
         $mail->IsSMTP();
         $mail->SMTPOptions = array(
             'ssl' => array(

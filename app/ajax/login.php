@@ -15,7 +15,7 @@
 
  
 
-  // $user->register('admin@gmail.com','admin123','admin');
+   //$user->register('admin@gmail.com','admin123','admin');
 
 
    if(isset($_POST['loginusername']) && isset($_POST['loginpassword'])) {
