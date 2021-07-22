@@ -5,7 +5,7 @@
     * Date: 11/30/2019
     * Time: 3:04 PM
     */
-   include './db.php';
+   include 'db.php';
    require "../component/vendor/autoload.php";
    use \Firebase\JWT\JWT;
 

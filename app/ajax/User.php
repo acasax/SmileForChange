@@ -6,9 +6,9 @@
  * Time: 10:57
  */
 require_once 'dbconfig.php';
-require SITE_ROOT."/../component/vendor/autoload.php";
-   require_once SITE_ROOT.'/../mailer/PHPMailer-master/class.phpmailer.php' ;
-   include SITE_ROOT.'/../mailer/PHPMailer-master/class.smtp.php';
+require "../component/vendor/autoload.php";
+   require_once '../mailer/PHPMailer-master/class.phpmailer.php' ;
+   include '../mailer/PHPMailer-master/class.smtp.php';
 
    use  \Firebase\JWT\JWT;
 class User extends \Firebase\JWT\JWT
@@ -60,7 +60,7 @@ class User extends \Firebase\JWT\JWT
         $mail->MsgHTML($message);
 
         if(!$mail->Send()){
-            throw new Exception ("Nije moguce poslati email. Pokusajte ponovo.");
+            throw new Exception("Nije moguce poslati email. Pokusajte ponovo.");
             return false;
         }else{
             return true;
@@ -85,12 +85,13 @@ class User extends \Firebase\JWT\JWT
         $mail->Host = "smtp.gmail.com";
         $mail->Port = 587;
       $mail->AddAddress($email); //email from customer
-      $mail->Username = "smile4changedd@gmail.com"; //email
-      $mail->Password = "dusan2912"; //password
-      $mail->SetFrom("smile4changedd@gmail.com", 'Kretive Dent Lab'); // duletov email kreative lab
+      $mail->Username = "acasax@gmail.com"; //email
+      $mail->Password = "podlogazamis123"; //password
+      $mail->SetFrom("acasax@gmail.com", 'Kretive Dent Lab'); // duletov email kreative lab
       //$mail->AddReplyTo("", "Kretive Dent Lab"); // add to cc
       $mail->Subject = $subject;
       $mail->MsgHTML($message);
+      
 
       if(!$mail->Send()){
          throw new Exception("Nije moguce poslati email. Pokusajte ponovo.");

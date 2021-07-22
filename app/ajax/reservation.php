@@ -107,7 +107,7 @@ if(isset($_POST["bookingname"]) && isset($_POST["bookinglastname"]) && isset($_P
         </div>";
 
        $send = $user->send_custom_email($email,$mailBody,$emailSubject);
-       $sendAdmin = $user->send_custom_email('smile4changedd@gmail.com',$adminEmailBody,$emailSubject);
+       $sendAdmin = $user->send_custom_email('acasax@gmail.com',$adminEmailBody,$emailSubject);
 
 
         $connection->commit();
