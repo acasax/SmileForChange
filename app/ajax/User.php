@@ -6,9 +6,9 @@
  * Time: 10:57
  */
 require_once 'dbconfig.php';
-require "../component/vendor/autoload.php";
-   require_once '../mailer/PHPMailer-master/class.phpmailer.php' ;
-   include '../mailer/PHPMailer-master/class.smtp.php';
+require __DIR__ . "/../component/vendor/autoload.php";
+   require_once __DIR__ . '/../mailer/PHPMailer-master/class.phpmailer.php';
+   include __DIR__ . '/../mailer/PHPMailer-master/class.smtp.php';
 
    use  \Firebase\JWT\JWT;
 class User extends \Firebase\JWT\JWT
