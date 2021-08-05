@@ -56,7 +56,9 @@ const getEventList = () => {
                             $('.modal').modal('show');
                             const event = ev.event;
                             let start = new Date(event.start);
-                            start = start.getFullYear() + "-" + (start.getMonth() + 1) + "-" + String(start.getDate()).padStart(2, '0') + " " + String(start.getHours()).padStart(2, '0') + ":00";
+                            let month = start.getMonth() + 1
+                            month = month < 10 ?  month.toString().padStart(2,"0"): month.toString();
+                            start = start.getFullYear() + "-" + month + "-" + String(start.getDate()).padStart(2, '0') + " " + String(start.getHours()).padStart(2, '0') + ":00";
                             let object = eventsFullList.find(x => x.eventList.start === start);
                             let status = 'Not reserved';
                             let activeClass = 'notReserved';
