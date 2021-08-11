@@ -24,8 +24,8 @@ $(document).on('ready', function () {
         $setTermsForms.validate({
             rules: {
                 term_date: {
-                    required: true,
-                    minDate: true,
+                    required: true
+                   
                 },
                 start_time:{
                     required: true,
@@ -39,9 +39,9 @@ $(document).on('ready', function () {
                 }
             },
             messages: {
-                bookingname: {
-                    required: "Please choose date",
-                    maxDate: "Invalid date!"
+                term_date: {
+                    required: "Please choose date"
+                   
                 },
                 bookinglastname: {
                     required: "Please choose start time",

@@ -51,9 +51,9 @@ class User extends \Firebase\JWT\JWT
         $mail->SMTPSecure = "tls";
         $mail->Host = "smtp.gmail.com";
         $mail->Port = 587;
-        $mail->AddAddress("smile4changedd@gmail.com"); //email unesi tvoj email
-        $mail->Username = "smile4changedd@gmail.com"; //email
-        $mail->Password = "dusan2912"; //password
+        $mail->AddAddress("acasax@gmail.com"); //email unesi tvoj email
+        $mail->Username = "acasax@gmail.com"; //email
+        $mail->Password = "Podlogazamis456!"; //password
         $mail->SetFrom($email, 'Kretive Dent Lab');
         $mail->AddReplyTo($email, "Kretive Dent Lab");
         $mail->Subject = $subject;
@@ -86,7 +86,7 @@ class User extends \Firebase\JWT\JWT
         $mail->Port = 587;
       $mail->AddAddress($email); //email from customer
       $mail->Username = "acasax@gmail.com"; //email
-      $mail->Password = "podlogazamis123"; //password
+      $mail->Password = "Podlogazamis456!"; //password
       $mail->SetFrom("acasax@gmail.com", 'Kretive Dent Lab'); // duletov email kreative lab
       //$mail->AddReplyTo("", "Kretive Dent Lab"); // add to cc
       $mail->Subject = $subject;
